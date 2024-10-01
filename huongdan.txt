@@ -1,0 +1,15 @@
+- Thêm điểm danh hàng ngày ( Daily boost)
+
+Yêu cầu đã cài nodejs
+
+Ccài các module cần thiết:  npm install axios luxon colors https-proxy-agent
+
+tạo 2 file data.txt và proxy.txt, đối với ai dùng noproxy thì không cần tạo file proxy.txt
+
+Định dạng proxy : http://user:pass@ip:port
+
+trong file data.txt phải có định dạng:  query_id=xxxx hoặc user_id=xxxx
+
+- Cách lấy query_id như ảnh
+
+Lệnh chạy tool:       node pocketfi-proxy.js
