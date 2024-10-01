@@ -3,7 +3,6 @@ const path = require('path');
 const axios = require('axios');
 const colors = require('colors');
 const { performance } = require('perf_hooks');
-const { HttpsProxyAgent } = require('https-proxy-agent');
 
 class Pocketfi {
     constructor() {
